@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    color: #e3b062;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: black;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.banner {
+    height: 94.1%;
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.card {
+    height: 90%;
+    width: 30%;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: palevioletred;
+}
+
+.card h4 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.formulario {
+    display: flex;
+    width: 60%;
+    height: 70%;
+    justify-content: space-around;
+    flex-direction: column;    
+}
+
+.formulario span {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.formulario input {
+    border: 2px solid #32b9cd;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo span {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.card button {
+    border: 0;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px;
+}

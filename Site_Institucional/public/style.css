@@ -1,11 +1,24 @@
 *{
-margin: 0;
-padding: 0;
-font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    color: #e3b062;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
 }
 
 .header {
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid #32b9cd;
     background-color: black;
 }
 
@@ -17,21 +30,21 @@ font-family: 'Courier New', Courier, monospace;
     align-items: center;
 }
 
-.header a{
-    color: rgb(145, 12, 145);
-    text-decoration: none;
-}
 
 .header ul{
     width: 400px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    color: rgb(145, 12, 145);
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
 }
 
 .header h1{
-    color: aqua;
+    color: #32b9cd;
 }
 
 .container {
@@ -91,7 +104,12 @@ font-family: 'Courier New', Courier, monospace;
 .footer {
     height: 60px;
     width: 100%;
-    background-color: blue;
+    display: flex;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer .container .version {
@@ -113,6 +131,7 @@ font-family: 'Courier New', Courier, monospace;
 .card h2 {
     margin: 0;
     font-size: 30px;
+    text-align: center;
 }
 
 .formulario {
@@ -142,6 +161,12 @@ font-family: 'Courier New', Courier, monospace;
     height: 100%;
 }
 
+.login {
+    height: 85%;
+    display: flex;
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+}
+
 .login .container {
     justify-content: center;
     height: 500px;
@@ -154,8 +179,8 @@ font-family: 'Courier New', Courier, monospace;
     border-radius: 5px;
     font-weight: 504;
     font-size: 19px;
-    color: crimson;
-    background-color: chartreuse;
+    color: white;
+    background-color: crimson;
     width: 120px;
     height: 30px;
     align-self: center;
